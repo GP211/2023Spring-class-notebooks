@@ -1,0 +1,18 @@
+
+Subject: Re:  toldi's well data
+
+The complete data is in /arnaud/CHEVRON/chevron/data/chevrondata
+This file contains the two well datasets (Vave = 2000 m/s and 2300 m/s)
+followed by the two corresponding seismic datasets for the same Vave.
+
+The file is in GOCAD ASCII format. Unless you want to use GOCAD to view
+the datasets, you can ignore and/or remove all the lines starting with
+TRGL. The coordinate information is coded in the lines starting with VRTX
+with the following pattern:
+
+	VRTX  vertex_number  X  Y  Z
+
+Let me know if you have any question about the geometry of the dataset.
+Not all the wells fall inside the boundary of the "seismic" dataset.
+
+Arnaud
